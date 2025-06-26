@@ -1,0 +1,15 @@
+{
+  "/api/test": {
+    "response_times": {
+      "95_percentile": 150,
+      "90_percentile": 150,
+      "min": 150,
+      "max": 150,
+      "50_percentile": 150,
+      "99_percentile": 150
+    },
+    "status_codes": {
+      "2XX": 1
+    }
+  }
+}

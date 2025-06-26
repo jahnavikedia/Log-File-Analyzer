@@ -1,0 +1,3 @@
+timestamp=2024-04-12T22:00:00Z metric=cpu_usage_percent value=78
+timestamp=... level=ERROR message=Failed
+timestamp=... request_url="/api/test" response_status=200 response_time_ms=150

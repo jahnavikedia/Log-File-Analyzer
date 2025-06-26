@@ -1,0 +1,40 @@
+timestamp=2024-11-24T10:00:50Z level=INFO message="User updated profile" user_id=103 host=webserver3
+timestamp=2024-11-24T10:00:55Z level=TRACE message="Entering function 'process_request'" request_id=201 host=webserver1
+timestamp=2024-11-24T10:00:57Z request_method=PUT request_url="/api/status" response_status=201 response_time_ms=117 host=webserver1
+timestamp=2024-11-24T10:01:00Z level=WARNING message="Disk space running low" available_space_mb=512 host=webserver3
+timestamp=2024-11-24T10:01:05Z level=WARNING message="High CPU usage detected" usage_percent=92 host=webserver3
+timestamp=2024-11-24T10:01:10Z request_method=POST request_url="/api/retry" response_status=404 response_time_ms=233 host=webserver3
+timestamp=2024-11-24T10:01:15Z request_method=POST request_url="/api/status" response_status=201 response_time_ms=277 host=webserver3
+timestamp=2024-11-24T10:01:20Z request_method=GET request_url="/home" response_status=404 response_time_ms=329 host=webserver2
+timestamp=2024-11-24T10:01:25Z request_method=PUT request_url="/api/update" response_status=503 response_time_ms=61 host=webserver1
+timestamp=2024-11-24T10:01:30Z metric=cpu_usage_percent host=webserver1 value=94
+timestamp=2024-11-24T10:01:35Z metric=memory_usage_percent host=webserver2 value=31
+timestamp=2024-11-24T10:01:40Z metric=network_bytes_in host=webserver2 interface=eth0 value=1597742
+timestamp=2024-11-24T10:01:45Z event=ACCESS_DENIED user_id=125 resource="/admin" host=webserver2
+timestamp=2024-11-24T10:01:50Z metric=network_bytes_out host=webserver2 interface=eth0 value=6499590
+timestamp=2024-11-24T10:01:55Z request_method=GET request_url="/api/retry" response_status=202 response_time_ms=216 host=webserver3
+timestamp=2024-11-24T10:02:00Z level=DEBUG message="API request timing logged" endpoint="/api/v1/resource" duration_ms=150 host=webserver1
+timestamp=2024-11-24T10:02:05Z metric=memory_usage_percent host=webserver3 value=91
+timestamp=2024-11-24T10:02:20Z request_method=PUT request_url="/api/status" response_status=500 response_time_ms=140 host=webserver2
+timestamp=2024-11-24T10:02:25Z request_method=GET request_url="/api/retry" response_status=500 response_time_ms=454 host=webserver1
+timestamp=2024-11-24T10:02:30Z request_method=PUT request_url="/api/update" response_status=400 response_time_ms=144 host=webserver1
+timestamp=2024-11-24T10:02:35Z metric=disk_usage_percent mountpoint=/ host=webserver1 value=9
+timestamp=2024-11-24T10:02:40Z level=DEBUG message="Connection pool initialized" pool_size=10 host=webserver1
+timestamp=2024-11-24T10:02:45Z metric=memory_usage_percent host=webserver3 value=14
+timestamp=2024-11-24T10:02:50Z request_method=PUT request_url="/api/update" response_status=404 response_time_ms=378 host=webserver3
+timestamp=2024-11-24T10:02:55Z level=ERROR message="File not found" file_path="/var/app/config.yml" host=webserver2
+timestamp=2024-11-24T10:03:00Z request_method=POST request_url="/api/status" response_status=500 response_time_ms=118 host=webserver3
+timestamp=2024-11-24T10:03:05Z level=DEBUG message="Cache hit for key 'user_profile_103'" key="user_profile_103" host=webserver1
+timestamp=2024-11-24T10:03:10Z event=DEPLOYMENT_START app="user-service" version="1.0.1" host=deploy-server
+timestamp=2024-11-24T10:03:15Z event=DEPLOYMENT_SUCCESS app="user-service" version="1.0.1" host=deploy-server
+timestamp=2024-11-24T10:03:20Z level=TRACE message="Exiting function 'validate_input'" input="email@example.com" host=webserver2
+timestamp=2024-11-24T10:03:25Z request_method=GET request_url="/api/status" response_status=500 response_time_ms=223 host=webserver3
+timestamp=2024-11-24T10:03:30Z metric=cpu_usage_percent host=webserver2 value=71
+timestamp=2024-11-24T10:03:35Z metric=memory_usage_percent host=webserver2 value=88
+timestamp=2024-11-24T10:03:40Z level=INFO message="Scheduled task completed successfully" task_id=501 host=webserver2
+timestamp=2024-11-24T10:03:45Z level=ERROR message="Authentication failed" user_id=102 host=webserver1
+timestamp=2024-11-24T10:03:50Z level=INFO message="User logged in" user_id=101 host=webserver1
+timestamp=2024-11-24T10:03:55Z metric=network_bytes_in host=webserver2 interface=eth0 value=6620300
+timestamp=2024-11-24T10:04:00Z metric=disk_usage_percent mountpoint=/ host=webserver3 value=88
+timestamp=2024-11-24T10:04:05Z metric=cpu_usage_percent host=webserver3 value=45
+timestamp=2024-11-24T10:04:07Z metric=cpu_usage_percent host=webserv

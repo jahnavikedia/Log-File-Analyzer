@@ -1,0 +1,21 @@
+timestamp=2024-02-24T16:22:15Z metric=cpu_usage_percent host=webserver1 value=72
+timestamp=2024-02-24T16:22:20Z level=INFO message="Scheduled maintenance starting" host=webserver1
+timestamp=2024-02-24T16:22:25Z request_method=POST request_url="/api/update" response_status=202 response_time_ms=200 host=webserver1
+timestamp=2024-02-24T16:22:30Z metric=memory_usage_percent host=webserver1 value=85
+timestamp=2024-02-24T16:22:35Z level=ERROR message="Update process failed" error_code=5012 host=webserver1
+timestamp=2024-02-24T16:22:40Z request_method=GET request_url="/api/status" response_status=200 response_time_ms=100 host=webserver1
+timestamp=2024-02-24T16:22:45Z metric=disk_usage_percent mountpoint=/ host=webserver1 value=68
+timestamp=2024-02-24T16:22:50Z level=DEBUG message="Retrying update process" attempt=1 host=webserver1
+timestamp=2024-02-24T16:22:55Z request_method=POST request_url="/api/retry" response_status=503 response_time_ms=250 host=webserver1
+timestamp=2024-02-24T16:23:00Z metric=network_bytes_in host=webserver1 interface=eth0 value=543210
+timestamp=2024-02-24T16:23:05Z level=INFO message="Update process completed successfully" host=webserver1
+timestamp=2024-02-24T16:23:10Z request_method=GET request_url="/home" response_status=404 response_time_ms=25 host=webserver1
+timestamp=2024-02-24T16:23:15Z metric=network_bytes_out host=webserver1 interface=eth0 value=123456
+timestamp=2024-02-24T16:23:20Z level=WARNING message="High memory usage detected" host=webserver1
+timestamp=2024-02-24T16:23:25Z request_method=GET request_url="/api/status" response_status=200 response_time_ms=150 host=webserver1
+timestamp=2024-02-24T16:23:30Z metric=cpu_usage_percent host=webserver2 value=65
+timestamp=2024-02-24T16:23:35Z level=ERROR message="Database connection timeout" host=webserver2
+timestamp=2024-02-24T16:23:40Z request_method=POST request_url="/api/status" response_status=500 response_time_ms=300 host=webserver2
+timestamp=2024-02-24T16:23:45Z metric=memory_usage_percent host=webserver2 value=90
+timestamp=2024-02-24T16:23:50Z level=INFO message="New user registered" user_id=789 host=webserver2
+timestamp=2024-02-24T16:23:55Z request_method=GET request_url="/api/status" response_status=200 response_time_ms=180 host=webserver2

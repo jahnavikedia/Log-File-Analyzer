@@ -1,0 +1,20 @@
+timestamp=2024-04-12T22:00:00Z metric=cpu_usage_percent value=72
+timestamp=2024-04-12T22:00:01Z metric=cpu_usage_percent value=83
+timestamp=2024-04-12T22:00:02Z metric=memory_usage_percent value=68
+timestamp=... level=INFO message="Started app"
+timestamp=... level=ERROR message="Something broke"
+timestamp=... level=INFO message="Still running"
+timestamp=... level=DEBUG message="Retrying"
+timestamp=... level=INFO message="Started app"
+timestamp=... level=ERROR message="Something broke"
+timestamp=... level=INFO message="Still running"
+timestamp=... level=DEBUG message="Retrying"
+timestamp=... request_method=GET request_url="/api/status" response_status=200 response_time_ms=107
+timestamp=... request_method=POST request_url="/api/update" response_status=503 response_time_ms=256
+timestamp=... request_method=POST request_url="/api/update" response_status=202 response_time_ms=400
+timestamp=2024-04-12T22:00:00Z metric=cpu_usage_percent value=72
+timestamp=2024-04-12T22:00:01Z metric=cpu_usage_percent value=84
+timestamp=2024-04-12T22:00:02Z metric=memory_usage_percent value=60
+timestamp=... request_method=GET request_url="/api/status" response_status=200 response_time_ms=100
+timestamp=... request_method=POST request_url="/api/update" response_status=503 response_time_ms=250
+timestamp=... request_method=POST request_url="/api/update" response_status=202 response_time_ms=200
